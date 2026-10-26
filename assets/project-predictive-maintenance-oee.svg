@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 600" width="1280" height="600" role="img" aria-labelledby="t">
+<title id="t">Predictive Maintenance &amp; OEE: Predicts turbofan engine failures from sensor data and schedules maintenance under crew limits.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF3FA"/><stop offset=".55" stop-color="#D6E5F1"/><stop offset="1" stop-color="#C7DAEB"/></linearGradient>
+<radialGradient id="glow" cx="6.0%" cy="0.0%" r="55%"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="100%" cy="100%" r="50%"><stop offset="0" stop-color="#8CB2DA" stop-opacity=".55"/><stop offset="1" stop-color="#8CB2DA" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".55"/></pattern>
+<linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1280" y2="0"><stop offset="0" stop-color="#1F5FBF"/><stop offset="1" stop-color="#1F5FBF" stop-opacity="0"/></linearGradient>
+<clipPath id="round"><rect width="1280" height="600" rx="24"/></clipPath>
+
+</defs>
+
+<style>
+.serif{font-family:Georgia,'Iowan Old Style','Palatino Linotype','Times New Roman',serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.rise{animation:rise 1.3s cubic-bezier(.16,1,.3,1) both}
+.fade{animation:fade 1.6s cubic-bezier(.16,1,.3,1) both}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.2s cubic-bezier(.65,0,.35,1) .6s forwards}
+.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.glowmove{animation:drift 14s ease-in-out infinite alternate}
+.d1{animation-delay:.1s}.d2{animation-delay:.3s}.d3{animation-delay:.5s}.d4{animation-delay:.75s}
+.d5{animation-delay:1s}.d6{animation-delay:1.25s}.d7{animation-delay:1.5s}.d8{animation-delay:1.8s}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(-60px,24px)}}
+@media (prefers-reduced-motion:reduce){.rise,.fade,.pulse,.glowmove{animation:none}.draw{animation:none;stroke-dashoffset:0}}
+
+</style>
+<g clip-path="url(#round)">
+<rect width="1280" height="600" fill="url(#bg)"/>
+<rect class="glowmove" x="-80" y="-60" width="1440" height="720" fill="url(#glow)"/>
+<rect width="1280" height="600" fill="url(#glow2)"/>
+<rect width="1280" height="600" fill="url(#grid)"/>
+<g class="rise d1"><text x="64" y="84" class="mono " font-size="15" font-weight="700" fill="#1F5FBF" text-anchor="start" letter-spacing="2" >02 · MANUFACTURING</text><text x="278" y="84" class="mono" font-size="15" font-weight="700" fill="#E0662B" letter-spacing="2">● IN PROGRESS</text></g>
+<text x="62" y="152" class="serif rise d2" font-size="50" font-weight="700" fill="#0E2139">Predictive Maintenance <tspan font-style="italic" font-weight="400" fill="#1F5FBF">&amp; OEE</tspan></text>
+<text x="64" y="196" class="sans rise d3" font-size="24" font-weight="500" fill="#3A5470" text-anchor="start" >Predicts turbofan engine failures from sensor data and</text>
+<text x="64" y="230" class="sans rise d3" font-size="24" font-weight="500" fill="#3A5470" text-anchor="start" >schedules maintenance under crew limits.</text>
+<text x="64" y="272" class="mono rise d4" font-size="14" font-weight="700" fill="#647D98" letter-spacing="1.5"><tspan fill="#1F5FBF">BUILT ›</tspan> POSTGRESQL → FEATURES → LSTM / XGBOOST → CP-SAT → OEE</text>
+<line x1="64" y1="298" x2="820" y2="298" stroke="#B9CEE1" stroke-width="1.5" pathLength="1" class="draw"/>
+<g class="rise d5"><text x="64" y="360" class="serif " font-size="50" font-weight="700" fill="#0E2139" text-anchor="start" >12.66</text><text x="64" y="390" class="sans " font-size="16" font-weight="500" fill="#3A5470" text-anchor="start" >LSTM RMSE on NASA</text><text x="64" y="412" class="sans " font-size="16" font-weight="500" fill="#3A5470" text-anchor="start" >FD003 (XGBoost 15.50)</text></g>
+<g class="rise d6"><text x="314" y="360" class="serif " font-size="50" font-weight="700" fill="#0E2139" text-anchor="start" >98.2%</text><text x="314" y="390" class="sans " font-size="16" font-weight="500" fill="#3A5470" text-anchor="start" >simulated OEE vs 95.2%</text><text x="314" y="412" class="sans " font-size="16" font-weight="500" fill="#3A5470" text-anchor="start" >run-to-failure</text></g>
+<g class="rise d7"><text x="564" y="360" class="serif " font-size="50" font-weight="700" fill="#0E2139" text-anchor="start" >8 vs 200</text><text x="564" y="390" class="sans " font-size="16" font-weight="500" fill="#3A5470" text-anchor="start" >unplanned failures vs</text><text x="564" y="412" class="sans " font-size="16" font-weight="500" fill="#3A5470" text-anchor="start" >run-to-failure</text></g>
+<g class="rise d7"><rect x="64.0" y="464" width="91.7" height="35" rx="17.5" fill="#FFFFFF" stroke="#B9CEE1" stroke-opacity="1"/><text x="109.8" y="487.6" class="sans" font-size="17" font-weight="600" fill="#163152" text-anchor="middle">Python</text></g>
+<g class="rise d7"><rect x="165.7" y="464" width="101.4" height="35" rx="17.5" fill="#FFFFFF" stroke="#B9CEE1" stroke-opacity="1"/><text x="216.4" y="487.6" class="sans" font-size="17" font-weight="600" fill="#163152" text-anchor="middle">PyTorch</text></g>
+<g class="rise d7"><rect x="277.1" y="464" width="107.8" height="35" rx="17.5" fill="#FFFFFF" stroke="#B9CEE1" stroke-opacity="1"/><text x="331.0" y="487.6" class="sans" font-size="17" font-weight="600" fill="#163152" text-anchor="middle">XGBoost</text></g>
+<g class="rise d7"><rect x="394.9" y="464" width="110.5" height="35" rx="17.5" fill="#FFFFFF" stroke="#B9CEE1" stroke-opacity="1"/><text x="450.2" y="487.6" class="sans" font-size="17" font-weight="600" fill="#163152" text-anchor="middle">OR-Tools</text></g>
+<g class="rise d7"><rect x="515.4" y="464" width="135.1" height="35" rx="17.5" fill="#FFFFFF" stroke="#B9CEE1" stroke-opacity="1"/><text x="583.0" y="487.6" class="sans" font-size="17" font-weight="600" fill="#163152" text-anchor="middle">PostgreSQL</text></g>
+<g class="rise d7"><rect x="660.6" y="464" width="91.7" height="35" rx="17.5" fill="#FFFFFF" stroke="#B9CEE1" stroke-opacity="1"/><text x="706.4" y="487.6" class="sans" font-size="17" font-weight="600" fill="#163152" text-anchor="middle">Prefect</text></g>
+<g class="rise d7"><rect x="64.0" y="509" width="161.7" height="35" rx="17.5" fill="#FFFFFF" stroke="#B9CEE1" stroke-opacity="1"/><text x="144.9" y="532.6" class="sans" font-size="17" font-weight="600" fill="#163152" text-anchor="middle">GitHub Actions</text></g>
+<g class="fade d3"><rect x="862" y="52" width="370" height="470" rx="20" fill="#FFFFFF" fill-opacity=".7" stroke="#B9CEE1"/></g>
+<g transform="translate(862,52)"><text x="24" y="44" class="mono " font-size="12" font-weight="700" fill="#647D98" text-anchor="start" letter-spacing="2" >SENSOR DRIFT → SERVICE</text><line x1="30" y1="360" x2="346" y2="360" stroke="#1F5FBF" stroke-opacity=".35"/><line x1="30" y1="90" x2="30" y2="360" stroke="#1F5FBF" stroke-opacity=".35"/><path d="M200 300 C 245 285, 290 220, 330 120 L 350 132 C 312 232, 262 302, 205 314 Z" fill="#1F5FBF" fill-opacity=".12" class="fade d6"/><path d="M30 300 L 60 296 L 90 302 L 120 294 L 150 299 L 180 291 L 210 288 L 240 274 L 266 248 L 290 212 L 312 170 L 334 120" fill="none" stroke="#1F5FBF" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="draw" style="animation-duration:2.6s"/><line x1="30" y1="180" x2="346" y2="180" stroke="#E0662B" stroke-width="1.8" stroke-dasharray="7 6" class="fade d5"/><text x="36" y="172" class="mono fade d5" font-size="12" font-weight="700" fill="#E0662B" text-anchor="start" >ALERT</text><line x1="304" y1="180" x2="304" y2="360" stroke="#E0662B" stroke-width="1.5" class="fade d8"/><circle cx="304" cy="186" r="14" fill="none" stroke="#E0662B" stroke-width="2" class="pulse"/><circle cx="304" cy="186" r="7" fill="#FFFFFF" stroke="#E0662B" stroke-width="3.5" class="fade d8"/><g class="rise d8"><rect x="200" y="392" width="146" height="36" rx="18" fill="#E0662B"/><text x="273" y="415" class="sans " font-size="15" font-weight="700" fill="#fff" text-anchor="middle" >Schedule crew</text></g><text x="30" y="400" class="mono " font-size="12" font-weight="700" fill="#647D98" text-anchor="start" letter-spacing="1" >CYCLES →</text></g>
+<text x="1047.0" y="562" class="mono fade d8" font-size="12" font-weight="700" fill="#647D98" text-anchor="middle" letter-spacing="2" >NASA C-MAPSS DATA · SIMULATED PLANT OEE</text>
+</g>
+<rect x=".75" y=".75" width="1278.5" height="598.5" rx="23.5" fill="none" stroke="#B9CEE1" stroke-opacity="1" stroke-width="1.5"/>
+</svg>

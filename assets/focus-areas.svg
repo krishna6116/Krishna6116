@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 310" width="1280" height="310" role="img" aria-labelledby="t">
+<title id="t">Explore my work: Data Analytics, ML / AI, Operations, Quality Analytics.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF3FA"/><stop offset=".55" stop-color="#D6E5F1"/><stop offset="1" stop-color="#C7DAEB"/></linearGradient>
+<radialGradient id="glow" cx="6.0%" cy="0.0%" r="55%"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="100%" cy="100%" r="50%"><stop offset="0" stop-color="#8CB2DA" stop-opacity=".55"/><stop offset="1" stop-color="#8CB2DA" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".55"/></pattern>
+<linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1280" y2="0"><stop offset="0" stop-color="#1F5FBF"/><stop offset="1" stop-color="#1F5FBF" stop-opacity="0"/></linearGradient>
+<clipPath id="round"><rect width="1280" height="310" rx="24"/></clipPath>
+
+</defs>
+
+<style>
+.serif{font-family:Georgia,'Iowan Old Style','Palatino Linotype','Times New Roman',serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.rise{animation:rise 1.3s cubic-bezier(.16,1,.3,1) both}
+.fade{animation:fade 1.6s cubic-bezier(.16,1,.3,1) both}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.2s cubic-bezier(.65,0,.35,1) .6s forwards}
+.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.glowmove{animation:drift 14s ease-in-out infinite alternate}
+.d1{animation-delay:.1s}.d2{animation-delay:.3s}.d3{animation-delay:.5s}.d4{animation-delay:.75s}
+.d5{animation-delay:1s}.d6{animation-delay:1.25s}.d7{animation-delay:1.5s}.d8{animation-delay:1.8s}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(-60px,24px)}}
+@media (prefers-reduced-motion:reduce){.rise,.fade,.pulse,.glowmove{animation:none}.draw{animation:none;stroke-dashoffset:0}}
+
+</style>
+<g clip-path="url(#round)">
+<rect width="1280" height="310" fill="url(#bg)"/>
+<rect class="glowmove" x="-80" y="-60" width="1440" height="430" fill="url(#glow)"/>
+<rect width="1280" height="310" fill="url(#glow2)"/>
+<rect width="1280" height="310" fill="url(#grid)"/>
+<g class="rise d1"><rect x="52" y="44" width="280" height="222" rx="20" fill="#FFFFFF" fill-opacity=".72" stroke="#B9CEE1"/><text x="78.0" y="80" class="mono " font-size="13" font-weight="700" fill="#647D98" text-anchor="start" letter-spacing="2" >01</text><g transform="translate(76,96)" fill="none" stroke="#1F5FBF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="28" cy="13" rx="18" ry="7"/><path d="M10 13v30c0 4 8 7 18 7s18-3 18-7V13"/><path d="M10 28c0 4 8 7 18 7s18-3 18-7"/></g><text x="78" y="196" class="serif" font-size="32" font-weight="700" fill="#0E2139">Data</text><text x="78" y="234" class="serif" font-size="32" font-style="italic" fill="#1F5FBF">Analytics</text></g>
+<g class="rise d2"><rect x="350" y="44" width="280" height="222" rx="20" fill="#FFFFFF" fill-opacity=".72" stroke="#B9CEE1"/><text x="376.5" y="80" class="mono " font-size="13" font-weight="700" fill="#647D98" text-anchor="start" letter-spacing="2" >02</text><g transform="translate(374,96)" fill="none" stroke="#1F5FBF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="14" width="28" height="28" rx="6"/><rect x="22" y="22" width="12" height="12" rx="2" fill="#1F5FBF"/><path d="M22 6v8M34 6v8M22 42v8M34 42v8M6 22h8M6 34h8M42 22h8M42 34h8"/></g><text x="376" y="214" class="serif" font-size="32" font-style="italic" fill="#1F5FBF">ML / AI</text></g>
+<g class="rise d3"><rect x="649" y="44" width="280" height="222" rx="20" fill="#FFFFFF" fill-opacity=".72" stroke="#B9CEE1"/><text x="675.0" y="80" class="mono " font-size="13" font-weight="700" fill="#647D98" text-anchor="start" letter-spacing="2" >03</text><g transform="translate(673,96)" fill="none" stroke="#1F5FBF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 48V26l12 8v-8l12 8v-8l12 8V10h8v38z"/><path d="M14 48v-6M26 48v-6M38 48v-6"/></g><text x="675" y="214" class="serif" font-size="32" font-style="italic" fill="#1F5FBF">Operations</text></g>
+<g class="rise d4"><rect x="948" y="44" width="280" height="222" rx="20" fill="#FFFFFF" fill-opacity=".72" stroke="#B9CEE1"/><text x="973.5" y="80" class="mono " font-size="13" font-weight="700" fill="#647D98" text-anchor="start" letter-spacing="2" >04</text><g transform="translate(972,96)" fill="none" stroke="#1F5FBF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 48h44"/><rect x="11" y="30" width="7" height="14" rx="1.5"/><rect x="24" y="22" width="7" height="22" rx="1.5"/><rect x="37" y="12" width="7" height="32" rx="1.5"/><path d="M10 24l14-10 10 6 14-12" stroke="#E0662B"/></g><text x="974" y="196" class="serif" font-size="32" font-weight="700" fill="#0E2139">Quality</text><text x="974" y="234" class="serif" font-size="32" font-style="italic" fill="#1F5FBF">Analytics</text></g>
+</g>
+<rect x=".75" y=".75" width="1278.5" height="308.5" rx="23.5" fill="none" stroke="#B9CEE1" stroke-opacity="1" stroke-width="1.5"/>
+</svg>
