@@ -5,14 +5,14 @@
 <radialGradient id="glow" cx="6.0%" cy="0.0%" r="55%"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
 <radialGradient id="glow2" cx="100%" cy="100%" r="50%"><stop offset="0" stop-color="#8CB2DA" stop-opacity=".55"/><stop offset="1" stop-color="#8CB2DA" stop-opacity="0"/></radialGradient>
 <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".55"/></pattern>
-<linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1280" y2="0"><stop offset="0" stop-color="#1F5FBF"/><stop offset="1" stop-color="#1F5FBF" stop-opacity="0"/></linearGradient>
+<linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1280" y2="0"><stop offset="0" stop-color="#2F74D0"/><stop offset="1" stop-color="#2F74D0" stop-opacity="0"/></linearGradient>
 <clipPath id="round"><rect width="1280" height="560" rx="24"/></clipPath>
 
 </defs>
 
 <style>
 .serif{font-family:Georgia,'Iowan Old Style','Palatino Linotype','Times New Roman',serif}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.mono{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .rise{animation:rise 1.3s cubic-bezier(.16,1,.3,1) both}
 .fade{animation:fade 1.6s cubic-bezier(.16,1,.3,1) both}
@@ -33,19 +33,18 @@
 <rect width="1280" height="560" fill="url(#bg)"/>
 <rect class="glowmove" x="-80" y="-60" width="1440" height="680" fill="url(#glow)"/>
 <rect width="1280" height="560" fill="url(#glow2)"/>
-<rect width="1280" height="560" fill="url(#grid)"/>
-<text x="64" y="100" class="serif rise d1" font-size="34" font-weight="400" fill="#0E2139" text-anchor="start" >With 2+ years of experience across</text>
-<text x="64" y="146" class="serif rise d2" font-size="34" font-weight="400" fill="#0E2139" text-anchor="start" >production, quality control, and</text>
-<text x="64" y="192" class="serif rise d3" font-size="34" font-weight="400" fill="#0E2139" text-anchor="start" >operations analytics, I turn raw</text>
-<text x="64" y="238" class="serif rise d4" font-size="34" font-weight="400" fill="#0E2139" text-anchor="start" >operational data into</text>
-<text x="64" y="284" class="serif rise d4" font-size="34" font-style="italic" fill="#1F5FBF">data-driven decisions.</text>
-<text x="64" y="348" class="sans rise d5" font-size="21" font-weight="500" fill="#3A5470" text-anchor="start" >Skilled in working with production and engineering teams to</text>
-<text x="64" y="380" class="sans rise d5" font-size="21" font-weight="500" fill="#3A5470" text-anchor="start" >translate KPI gaps and process deviations into actionable</text>
-<text x="64" y="412" class="sans rise d5" font-size="21" font-weight="500" fill="#3A5470" text-anchor="start" >counter-measures, now pursuing an MS in Business Analytics at</text>
-<text x="64" y="444" class="sans rise d5" font-size="21" font-weight="500" fill="#3A5470" text-anchor="start" >UMass Amherst.</text>
-<g class="rise d3"><rect x="770" y="48" width="450" height="149" rx="18" fill="#FFFFFF" fill-opacity=".72" stroke="#B9CEE1"/><text x="794" y="82" class="mono " font-size="13" font-weight="700" fill="#1F5FBF" text-anchor="start" letter-spacing="2" >EDUCATION</text><text x="794" y="113" class="serif " font-size="23" font-weight="700" fill="#0E2139" text-anchor="start" >Master’s in Business Analytics</text><text x="794" y="141" class="sans " font-size="18" font-weight="500" fill="#3A5470" text-anchor="start" >UMass Amherst, Isenberg</text><text x="794" y="169" class="sans " font-size="18" font-weight="500" fill="#3A5470" text-anchor="start" >Bachelor’s in Mechanical Engineering</text></g>
-<g class="rise d4"><rect x="770" y="213" width="450" height="155" rx="18" fill="#FFFFFF" fill-opacity=".72" stroke="#B9CEE1"/><text x="794" y="247" class="mono " font-size="13" font-weight="700" fill="#1F5FBF" text-anchor="start" letter-spacing="2" >FUN FACT</text><text x="794" y="278" class="serif " font-size="23" font-weight="700" fill="#0E2139" text-anchor="start" >Tracked a black panther in Kabini</text><text x="794" y="309" class="serif " font-size="23" font-weight="700" fill="#0E2139" text-anchor="start" >for a full year before finally</text><text x="794" y="340" class="serif " font-size="23" font-weight="700" fill="#0E2139" text-anchor="start" >photographing it</text></g>
-<g class="rise d5"><rect x="770" y="384" width="450" height="118" rx="18" fill="#FFFFFF" fill-opacity=".72" stroke="#B9CEE1"/><text x="794" y="418" class="mono " font-size="13" font-weight="700" fill="#1F5FBF" text-anchor="start" letter-spacing="2" >BEYOND WORK</text><text x="794" y="446" class="sans " font-size="18" font-weight="500" fill="#3A5470" text-anchor="start" >Passionate about wildlife photography</text><text x="794" y="474" class="sans " font-size="18" font-weight="500" fill="#3A5470" text-anchor="start" >and traveling</text></g>
+<text x="64" y="100" class="serif rise d1" font-size="34" font-weight="400" fill="#173A66" text-anchor="start" >With 2+ years of experience across</text>
+<text x="64" y="146" class="serif rise d2" font-size="34" font-weight="400" fill="#173A66" text-anchor="start" >production, quality control, and</text>
+<text x="64" y="192" class="serif rise d3" font-size="34" font-weight="400" fill="#173A66" text-anchor="start" >operations analytics, I turn raw</text>
+<text x="64" y="238" class="serif rise d4" font-size="34" font-weight="400" fill="#173A66" text-anchor="start" >operational data into</text>
+<text x="64" y="284" class="serif rise d4" font-size="34" font-style="italic" fill="#2F74D0">data-driven decisions.</text>
+<text x="64" y="348" class="sans rise d5" font-size="21" font-weight="500" fill="#4B6584" text-anchor="start" >Skilled in working with production and engineering teams to</text>
+<text x="64" y="380" class="sans rise d5" font-size="21" font-weight="500" fill="#4B6584" text-anchor="start" >translate KPI gaps and process deviations into actionable</text>
+<text x="64" y="412" class="sans rise d5" font-size="21" font-weight="500" fill="#4B6584" text-anchor="start" >counter-measures, now pursuing an MS in Business Analytics at</text>
+<text x="64" y="444" class="sans rise d5" font-size="21" font-weight="500" fill="#4B6584" text-anchor="start" >UMass Amherst.</text>
+<g class="rise d3"><rect x="770" y="48" width="450" height="149" rx="18" fill="#FFFFFF" fill-opacity=".72" stroke="#C3D6E8"/><text x="794" y="82" class="mono " font-size="13" font-weight="700" fill="#2F74D0" text-anchor="start" letter-spacing="2" >EDUCATION</text><text x="794" y="113" class="serif " font-size="23" font-weight="700" fill="#173A66" text-anchor="start" >Master’s in Business Analytics</text><text x="794" y="141" class="sans " font-size="18" font-weight="500" fill="#4B6584" text-anchor="start" >UMass Amherst, Isenberg</text><text x="794" y="169" class="sans " font-size="18" font-weight="500" fill="#4B6584" text-anchor="start" >Bachelor’s in Mechanical Engineering</text></g>
+<g class="rise d4"><rect x="770" y="213" width="450" height="155" rx="18" fill="#FFFFFF" fill-opacity=".72" stroke="#C3D6E8"/><text x="794" y="247" class="mono " font-size="13" font-weight="700" fill="#2F74D0" text-anchor="start" letter-spacing="2" >FUN FACT</text><text x="794" y="278" class="serif " font-size="23" font-weight="700" fill="#173A66" text-anchor="start" >Tracked a black panther in Kabini</text><text x="794" y="309" class="serif " font-size="23" font-weight="700" fill="#173A66" text-anchor="start" >for a full year before finally</text><text x="794" y="340" class="serif " font-size="23" font-weight="700" fill="#173A66" text-anchor="start" >photographing it</text></g>
+<g class="rise d5"><rect x="770" y="384" width="450" height="118" rx="18" fill="#FFFFFF" fill-opacity=".72" stroke="#C3D6E8"/><text x="794" y="418" class="mono " font-size="13" font-weight="700" fill="#2F74D0" text-anchor="start" letter-spacing="2" >BEYOND WORK</text><text x="794" y="446" class="sans " font-size="18" font-weight="500" fill="#4B6584" text-anchor="start" >Passionate about wildlife photography</text><text x="794" y="474" class="sans " font-size="18" font-weight="500" fill="#4B6584" text-anchor="start" >and traveling</text></g>
 </g>
-<rect x=".75" y=".75" width="1278.5" height="558.5" rx="23.5" fill="none" stroke="#B9CEE1" stroke-opacity="1" stroke-width="1.5"/>
+<rect x=".75" y=".75" width="1278.5" height="558.5" rx="23.5" fill="none" stroke="#C3D6E8" stroke-opacity="1" stroke-width="1.5"/>
 </svg>
