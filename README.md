@@ -38,7 +38,7 @@
 
 <img src="./assets/title-github.svg" width="100%" alt="06 GitHub: Building in public.">
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=krishna6116&show_icons=true&hide_rank=true&hide_border=true&border_radius=16&bg_color=EAF3FA&title_color=173A66&text_color=4B6584&icon_color=2F74D0&custom_title=GitHub%20at%20a%20glance" width="420" alt="GitHub stats for krishna6116">
+<img src="https://streak-stats.demolab.com/?user=krishna6116&hide_border=true&border_radius=16&background=EAF3FA&ring=2F74D0&fire=2F74D0&currStreakLabel=173A66&sideLabels=173A66&currStreakNum=173A66&sideNums=173A66&dates=4B6584&stroke=C9DCEF" width="480" alt="GitHub contribution streak for krishna6116">
 </p>
 <!-- [ADD: contribution snake] Optional: add a GitHub Action that generates a contribution-graph animation, then embed it here. -->
 
