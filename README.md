@@ -12,7 +12,7 @@
 </p>
 
 <img src="./assets/title-about.svg" width="100%" alt="01 About: Hello, I'm Krishnakumar.">
-<img src="./assets/about.svg" width="100%" alt="With 2+ years of experience across production, quality control, and operations analytics, I turn raw operational data into data-driven decisions. Skilled in working with production and engineering teams to translate KPI gaps and process deviations into actionable counter-measures, now pursuing an MS in Business Analytics at UMass Amherst. Education: Master's in Business Analytics (UMass Amherst, Isenberg) and Bachelor's in Mechanical Engineering. Fun fact: tracked a black panther in Kabini for a full year before finally photographing it. Beyond work: passionate about wildlife photography and traveling.">
+<img src="./assets/about.svg" width="100%" alt="AI, Data and Operations Analytics professional with 2+ years of hands-on industry experience, turning raw data into clear, data-driven decisions. Started in production and quality control, turning KPI gaps into fixes with engineering teams. Now an MS Business Analytics candidate at UMass Amherst, open to Product Management, AI and Analyst internships in any industry. Education: Master's in Business Analytics (UMass Amherst, Isenberg) and Bachelor's in Mechanical Engineering. Fun fact: hobby wildlife photographer who tracks big cats in the wild, and a passionate traveller. Beyond work: organised plastic clean-up drives in Mudumalai and Anamalai Tiger Reserves.">
 
 <img src="./assets/title-focus.svg" width="100%" alt="02 Focus: Explore my work.">
 <a href="https://github.com/krishna6116?tab=repositories"><img src="./assets/focus-areas.svg" width="100%" alt="Explore my work: Data Analytics, ML / AI, Operations, Quality Analytics."></a>
