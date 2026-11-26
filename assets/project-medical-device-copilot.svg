@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 600" width="1280" height="600" role="img" aria-labelledby="t">
+<title id="t">Medical Device Quality Copilot: AI assistant that investigates device field failures in public FDA data, cites the exact reports and remembers each case.</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EAF3FA"/><stop offset=".55" stop-color="#D6E5F1"/><stop offset="1" stop-color="#C7DAEB"/></linearGradient>
+<radialGradient id="glow" cx="6.0%" cy="0.0%" r="55%"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="glow2" cx="100%" cy="100%" r="50%"><stop offset="0" stop-color="#8CB2DA" stop-opacity=".55"/><stop offset="1" stop-color="#8CB2DA" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".55"/></pattern>
+<linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1280" y2="0"><stop offset="0" stop-color="#2F74D0"/><stop offset="1" stop-color="#2F74D0" stop-opacity="0"/></linearGradient>
+<clipPath id="round"><rect width="1280" height="600" rx="24"/></clipPath>
+
+</defs>
+
+<style>
+.serif{font-family:Georgia,'Iowan Old Style','Palatino Linotype','Times New Roman',serif}
+.mono{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.rise{animation:rise 1.3s cubic-bezier(.16,1,.3,1) both}
+.fade{animation:fade 1.6s cubic-bezier(.16,1,.3,1) both}
+.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.2s cubic-bezier(.65,0,.35,1) .6s forwards}
+.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.glowmove{animation:drift 14s ease-in-out infinite alternate}
+.d1{animation-delay:.1s}.d2{animation-delay:.3s}.d3{animation-delay:.5s}.d4{animation-delay:.75s}
+.d5{animation-delay:1s}.d6{animation-delay:1.25s}.d7{animation-delay:1.5s}.d8{animation-delay:1.8s}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+@keyframes drift{from{transform:translate(0,0)}to{transform:translate(-60px,24px)}}
+@media (prefers-reduced-motion:reduce){.rise,.fade,.pulse,.glowmove{animation:none}.draw{animation:none;stroke-dashoffset:0}}
+
+</style>
+<g clip-path="url(#round)">
+<rect width="1280" height="600" fill="url(#bg)"/>
+<rect class="glowmove" x="-80" y="-60" width="1440" height="720" fill="url(#glow)"/>
+<rect width="1280" height="600" fill="url(#glow2)"/>
+<g class="rise d1"><text x="64" y="84" class="mono " font-size="15" font-weight="700" fill="#2F74D0" text-anchor="start" letter-spacing="2" >03 · HEALTHCARE · QUALITY</text><text x="372" y="84" class="mono" font-size="15" font-weight="700" fill="#1B4F9C" letter-spacing="2">● LIVE APP · v1.0.0</text></g>
+<text x="62" y="152" class="serif rise d2" font-size="50" font-weight="700" fill="#173A66">Medical Device <tspan font-style="italic" font-weight="400" fill="#2F74D0">Quality Copilot</tspan></text>
+<text x="64" y="196" class="sans rise d3" font-size="24" font-weight="500" fill="#4B6584" text-anchor="start" >AI assistant that investigates device field failures in FDA</text>
+<text x="64" y="230" class="sans rise d3" font-size="24" font-weight="500" fill="#4B6584" text-anchor="start" >data, cites the exact reports and remembers each case.</text>
+<text x="64" y="272" class="mono rise d4" font-size="14" font-weight="700" fill="#7189A6" letter-spacing="1.5"><tspan fill="#2F74D0">BUILT ›</tspan> OPENFDA → POSTGRESQL → FAILURE MODES → CLAUDE AGENT → GUARD</text>
+<line x1="64" y1="298" x2="820" y2="298" stroke="#C3D6E8" stroke-width="1.5" pathLength="1" class="draw"/>
+<g class="rise d5"><text x="64" y="360" class="serif " font-size="50" font-weight="700" fill="#173A66" text-anchor="start" >78/80</text><text x="64" y="390" class="sans " font-size="16" font-weight="500" fill="#4B6584" text-anchor="start" >questions Claude Haiku got right,</text><text x="64" y="412" class="sans " font-size="16" font-weight="500" fill="#4B6584" text-anchor="start" >$0.10 (Opus 76/80, $4.01)</text></g>
+<g class="rise d6"><text x="334" y="360" class="serif " font-size="50" font-weight="700" fill="#173A66" text-anchor="start" >15 of 38</text><text x="334" y="390" class="sans " font-size="16" font-weight="500" fill="#4B6584" text-anchor="start" >recalls preceded by an</text><text x="334" y="412" class="sans " font-size="16" font-weight="500" fill="#4B6584" text-anchor="start" >early-warning signal (14% base)</text></g>
+<g class="rise d7"><text x="604" y="360" class="serif " font-size="50" font-weight="700" fill="#173A66" text-anchor="start" >97.5%</text><text x="604" y="390" class="sans " font-size="16" font-weight="500" fill="#4B6584" text-anchor="start" >battery reports from recalled</text><text x="604" y="412" class="sans " font-size="16" font-weight="500" fill="#4B6584" text-anchor="start" >families (77.9% before)</text></g>
+<g class="rise d7"><rect x="64.0" y="464" width="85.8" height="35" rx="17.5" fill="#FFFFFF" stroke="#C3D6E8" stroke-opacity="1"/><text x="106.9" y="487.6" class="sans" font-size="17" font-weight="600" fill="#1E4470" text-anchor="middle">Python</text></g>
+<g class="rise d7"><rect x="159.8" y="464" width="123.0" height="35" rx="17.5" fill="#FFFFFF" stroke="#C3D6E8" stroke-opacity="1"/><text x="221.3" y="487.6" class="sans" font-size="17" font-weight="600" fill="#1E4470" text-anchor="middle">Claude API</text></g>
+<g class="rise d7"><rect x="292.8" y="464" width="123.0" height="35" rx="17.5" fill="#FFFFFF" stroke="#C3D6E8" stroke-opacity="1"/><text x="354.3" y="487.6" class="sans" font-size="17" font-weight="600" fill="#1E4470" text-anchor="middle">PostgreSQL</text></g>
+<g class="rise d7"><rect x="425.8" y="464" width="95.1" height="35" rx="17.5" fill="#FFFFFF" stroke="#C3D6E8" stroke-opacity="1"/><text x="473.4" y="487.6" class="sans" font-size="17" font-weight="600" fill="#1E4470" text-anchor="middle">openFDA</text></g>
+<g class="rise d7"><rect x="530.9" y="464" width="141.6" height="35" rx="17.5" fill="#FFFFFF" stroke="#C3D6E8" stroke-opacity="1"/><text x="601.7" y="487.6" class="sans" font-size="17" font-weight="600" fill="#1E4470" text-anchor="middle">scikit-learn</text></g>
+<g class="rise d7"><rect x="64.0" y="509" width="113.7" height="35" rx="17.5" fill="#FFFFFF" stroke="#C3D6E8" stroke-opacity="1"/><text x="120.8" y="532.6" class="sans" font-size="17" font-weight="600" fill="#1E4470" text-anchor="middle">Streamlit</text></g>
+<g class="rise d7"><rect x="187.7" y="509" width="104.4" height="35" rx="17.5" fill="#FFFFFF" stroke="#C3D6E8" stroke-opacity="1"/><text x="239.9" y="532.6" class="sans" font-size="17" font-weight="600" fill="#1E4470" text-anchor="middle">Power BI</text></g>
+<g class="rise d7"><rect x="302.1" y="509" width="85.8" height="35" rx="17.5" fill="#FFFFFF" stroke="#C3D6E8" stroke-opacity="1"/><text x="345.0" y="532.6" class="sans" font-size="17" font-weight="600" fill="#1E4470" text-anchor="middle">pytest</text></g>
+<g class="rise d7"><rect x="397.9" y="509" width="160.2" height="35" rx="17.5" fill="#FFFFFF" stroke="#C3D6E8" stroke-opacity="1"/><text x="478.0" y="532.6" class="sans" font-size="17" font-weight="600" fill="#1E4470" text-anchor="middle">GitHub Actions</text></g>
+<g class="fade d3"><rect x="862" y="52" width="370" height="470" rx="20" fill="#FFFFFF" fill-opacity=".7" stroke="#C3D6E8"/></g>
+<g transform="translate(862,52)"><text x="24" y="44" class="mono " font-size="12" font-weight="700" fill="#7189A6" text-anchor="start" letter-spacing="2" >PACEMAKER BATTERY REPORTS</text><line x1="30" y1="360" x2="346" y2="360" stroke="#2F74D0" stroke-opacity=".35"/><line x1="30" y1="90" x2="30" y2="360" stroke="#2F74D0" stroke-opacity=".35"/><path d="M30 300 L 50 290 L 70 296 L 90 320 L 110 318 L 130 322 L 150 320 L 170 324 L 190 322 L 210 320 L 230 322 L 250 318 L 266 250 L 282 196 L 298 160 L 314 140 L 330 168 L 346 270 L 346 360 L 30 360 Z" fill="#2F74D0" fill-opacity=".10" class="fade d6"/><path d="M30 300 L 50 290 L 70 296 L 90 320 L 110 318 L 130 322 L 150 320 L 170 324 L 190 322 L 210 320 L 230 322 L 250 318 L 266 250 L 282 196 L 298 160 L 314 140 L 330 168 L 346 270" fill="none" stroke="#2F74D0" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" pathLength="1" class="draw" style="animation-duration:2.6s"/><line x1="256" y1="100" x2="256" y2="360" stroke="#1B4F9C" stroke-width="1.8" stroke-dasharray="7 6" class="fade d5"/><text x="250" y="112" class="mono fade d5" font-size="12" font-weight="700" fill="#1B4F9C" text-anchor="end" >RECALL</text><circle cx="298" cy="160" r="14" fill="none" stroke="#1B4F9C" stroke-width="2" class="pulse"/><circle cx="298" cy="160" r="7" fill="#FFFFFF" stroke="#1B4F9C" stroke-width="3.5" class="fade d8"/><text x="312" y="128" class="mono fade d8" font-size="12" font-weight="700" fill="#1B4F9C" text-anchor="middle" >DRIFT FLAG</text><g class="rise d8"><rect x="200" y="392" width="146" height="36" rx="18" fill="#1B4F9C"/><text x="273" y="415" class="sans " font-size="15" font-weight="700" fill="#fff" text-anchor="middle" >Cite reports</text></g><text x="30" y="400" class="mono " font-size="12" font-weight="700" fill="#7189A6" text-anchor="start" letter-spacing="1" >QUARTERS →</text></g>
+<text x="1047.0" y="562" class="mono fade d8" font-size="12" font-weight="700" fill="#7189A6" text-anchor="middle" letter-spacing="2" >PUBLIC FDA DATA · COUNTS ARE NOT RATES</text>
+</g>
+<rect x=".75" y=".75" width="1278.5" height="598.5" rx="23.5" fill="none" stroke="#C3D6E8" stroke-opacity="1" stroke-width="1.5"/>
+</svg>
