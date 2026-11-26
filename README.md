@@ -28,7 +28,7 @@
 <a href="https://krishna6116.github.io/CareOps-AI/"><img src="https://img.shields.io/badge/Live_demo-krishna6116.github.io-1B4F9C?style=for-the-badge&labelColor=173A66&logo=githubpages&logoColor=white" alt="CareOps AI live demo"></a>
 </p>
 
-<a href="https://github.com/krishna6116/Predictive-Maintenance-OEE"><img src="./assets/project-predictive-maintenance-oee.svg" width="100%" alt="Predictive Maintenance & OEE: predicts turbofan engine failures from NASA C-MAPSS sensor data and schedules maintenance under crew limits. LSTM RMSE 12.66 on FD003 vs XGBoost 15.50; simulated OEE 98.2% vs 95.2% run-to-failure; 8 vs 200 unplanned failures. Python, PyTorch, XGBoost, OR-Tools, PostgreSQL, Prefect, GitHub Actions."></a>
+<a href="https://github.com/krishna6116/Predictive-Maintenance-OEE"><img src="./assets/project-predictive-maintenance-oee-v2.svg" width="100%" alt="Predictive Maintenance & OEE: predicts turbofan engine failures from NASA C-MAPSS sensor data and schedules maintenance under crew limits. LSTM RMSE 12.66 on FD003 vs XGBoost 15.50; simulated OEE 98.2% vs 95.2% run-to-failure; 8 vs 200 unplanned failures. Python, PyTorch, XGBoost, OR-Tools, PostgreSQL, Prefect, GitHub Actions."></a>
 <p align="center">
 <a href="https://github.com/krishna6116/Predictive-Maintenance-OEE"><img src="https://img.shields.io/badge/Repository-Predictive_Maintenance_%26_OEE-2F74D0?style=for-the-badge&labelColor=173A66&logo=github&logoColor=white" alt="Predictive Maintenance and OEE repository"></a>
 <a href="https://predictive-maintenance-oee.streamlit.app"><img src="https://img.shields.io/badge/Live_app-predictive--maintenance--oee-1B4F9C?style=for-the-badge&labelColor=173A66&logo=streamlit&logoColor=white" alt="Predictive Maintenance and OEE live app"></a>
